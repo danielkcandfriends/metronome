@@ -15,9 +15,7 @@
 	var curTime = 0.0;
 
 	// Onload: Show beats
-	$("document").ready(function() {
-		showBeats();
-	});
+	window.onload = showBeats();
 
 	//Scheduler
 	function schedule() {
